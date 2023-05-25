@@ -159,6 +159,7 @@ img {
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 2rem;
   justify-content: center;
+  align-items: start;
 }
 .menu-item {
   background: var(--gray-50);
