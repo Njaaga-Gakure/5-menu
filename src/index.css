@@ -163,6 +163,7 @@ img {
   align-items: start;
 }
 .menu-item {
+  position: relative;
   background: var(--gray-50);
   border-radius: var(--border-radius);
   box-shadow: var(--shadow-2);
@@ -179,7 +180,6 @@ img {
 }
 .menu-item-info {
   padding: 1rem 2rem;
-  position: relative;
 }
 .menu-item-title {
   margin: 0;
@@ -192,11 +192,11 @@ img {
 .menu-item-price {
   display: inline-block;
   position: absolute;
-  top: 1rem;
-  right: 1rem;
+  top: 0;
+  right: 0;
   background: var(--primary-500);
   padding: 0 1rem;
   color: var(--gray-50);
-  border-radius: var(--border-radius);
+  border-radius: 0 var(--border-radius) 0 var(--border-radius);
   letter-spacing: var(--letter-spacing);
 }
